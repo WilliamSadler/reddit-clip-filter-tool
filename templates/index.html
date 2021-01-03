@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Alex is Fat</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+</head>
+<body>  
+    <div>
+        <center>
+            <h2>Terrible Reddit Sort Tool</h2>
+            <div id="videoplayer-wrapper">
+                <div class="video-player">
+                    <video width="1280" height="720" controls>
+                    <source src={{ url_for('static', filename="/static/videos/bruh.mp4") }} type="video/mp4">
+                    Your browser does not support the video tag, you fucking tramp.
+                </div>
+            </div>
+            
+        </center>
+        <center>
+            <br>
+            <br>
+            <button id="goodbutton">Good</button>
+            <button id="badbutton">Bad</button>
+            <button id="longbutton">Long</button>
+            <button id="undobutton">Undo</button>
+            <br>
+            <br>
+            <button id="nextbutton">
+                Next
+            </button>
+        </center>
+      </video>
+    </div>
+
+    <div id="input">
+        <center>
+            <h1>INPUT</h1>
+
+            <fieldset>
+                <legend>INPUT</legend>
+                <textarea id="input-textarea"></textarea>
+            </fieldset>
+        </center>
+    </div>
+
+    <div id="output">
+        <center>
+            <h1>OUTPUT</h1>
+
+            
+            <fieldset>
+                <legend>GOOD</legend>
+                <textarea id="goodoutput"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>BAD</legend>
+                <textarea id="badoutput"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>LONG</legend>
+                <textarea id="longoutput"></textarea>
+            </fieldset>
+            
+
+
+        </center>
+    </div>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src= "{{ url_for('static',filename='scripts/main.js') }}"></script>
+
+</body>

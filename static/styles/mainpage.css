@@ -1,0 +1,65 @@
+body {
+    background-color: #243342;
+    color: white
+}
+
+video {
+    background-color: black;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 20px
+    border none;
+}
+
+#goodbutton {
+    background-color: lime;
+}
+
+#badbutton {
+    background-color: red;
+}
+
+#longbutton {
+    background: orange;
+}
+
+#undobutton {
+    background-color: blue;
+}
+
+#nextbutton {
+    background-color: pink;
+}
+
+label {display:block;}
+textarea { 
+    width: 80%;
+    height: 300px;
+}
+
+fieldset {
+    float:left;
+    width: 25%;
+}
+
+.output {
+    text-align:center;
+    width: 90%;
+    text-align: center;
+}
+
+.input{
+    margin-bottom: 50px;
+}
+
+.video-player-hidden {
+    display: none;
+}
