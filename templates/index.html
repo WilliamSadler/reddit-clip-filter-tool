@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Alex is Fat</title>
+    <title>Alex is Fat (and gay!)</title>
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
 </head>
 <body>  
@@ -18,11 +18,9 @@
         </center>
         <center>
             <br>
-            <br>
             <button id="goodbutton">Good</button>
             <button id="badbutton">Bad</button>
             <button id="longbutton">Long</button>
-            <button id="undobutton">Undo</button>
             <br>
             <br>
             <button id="nextbutton">
@@ -48,17 +46,17 @@
             <h1>OUTPUT</h1>
 
             
-            <fieldset>
+            <fieldset class="output-fieldset">
                 <legend>GOOD</legend>
                 <textarea id="goodoutput"></textarea>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="output-fieldset">
                 <legend>BAD</legend>
                 <textarea id="badoutput"></textarea>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="output-fieldset">
                 <legend>LONG</legend>
                 <textarea id="longoutput"></textarea>
             </fieldset>

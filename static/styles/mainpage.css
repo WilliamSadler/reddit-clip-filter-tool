@@ -8,6 +8,7 @@ video {
 }
 
 button {
+    cursor: pointer;
     width: 120px;
     height: 40px;
     padding-top: 3px;
@@ -15,9 +16,10 @@ button {
     padding-left: 10px;
     padding-right: 10px;
     font-weight: bold;
-    font-size: 20px
-    border none;
+    font-size: 20px;
+    border: 2px outset black;
 }
+
 
 #goodbutton {
     background-color: lime;
@@ -39,15 +41,22 @@ button {
     background-color: pink;
 }
 
+#input-textarea{
+    width: 80%;
+}
+
 label {display:block;}
 textarea { 
+    resize: none;
     width: 80%;
     height: 300px;
 }
 
-fieldset {
+.output-fieldset {
+    margin: auto;
     float:left;
     width: 25%;
+    margin-left: 5%;
 }
 
 .output {
