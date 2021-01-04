@@ -74,7 +74,7 @@ function loadVideo(value) {
 $(function() {
     $('#nextbutton').on('click', function(e) {
         document.getElementById("nextbutton").disabled = true;
-        setTimeout(function(){document.getElementById("nextbutton").disabled = false;},10000);
+        setTimeout(function(){document.getElementById("nextbutton").disabled = false;},7500);
 
         e.preventDefault()
 
