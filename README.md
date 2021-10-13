@@ -1,2 +1,4 @@
 # reddit-clip-filter-tool
-Tool to filter through reddit clips more efficiently
+Flask website to help sort through reddit clips
+
+Mainly just a test of flask
